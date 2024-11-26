@@ -2,19 +2,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #fff;
 }
 
+header {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto
 }
 
 .image-container {
